@@ -18,6 +18,8 @@
 #include <cmath>
 #include <gsl/gsl_randist.h>
 
+#DEFINE RCPP_NO_STRICT_HEADERS
+
 #include <RcppGSL.h>
 #include <Rcpp.h>
 #include <Rinternals.h>
